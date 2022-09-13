@@ -7,9 +7,10 @@
  */
 int _putchar(void)
 {
+	int i = 0;
 	char ch[] = "_putchar";
 
-	for (int i = 0; i < sizeof(ch); i++)
+	while (ch[i] != '\0')
 	{
 		putchar(ch[i]);
 	}
