@@ -13,6 +13,7 @@ int main(void)
 	while (ch[i] != '\0')
 	{
 		putchar(ch[i]);
+		i++;
 	}
 	return (0);
 }
