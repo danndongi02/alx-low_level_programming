@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * times_table - Print the times table
+ *
+ */
 void times_table(void)
 {
 	int x; /*factor*/
@@ -29,9 +33,4 @@ void times_table(void)
 		}
 		putchar('\n');
 	}
-}
-
-void main(void)
-{
-	times_table();
 }
