@@ -15,7 +15,7 @@ void times_table(void)
 		for (n = 0; n < 10; n++)
 		{
 			result = x * n;
-			if (result > 10)
+			if (result >= 10)
 			{
 				putchar(result / 10 + '0');
 				putchar(result % 10 + '0');
