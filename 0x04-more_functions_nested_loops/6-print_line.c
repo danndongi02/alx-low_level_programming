@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * @brief print_line - Print line
+ * print_line - Print line
  *
  * @n: number of times '_' should be
  * printed
