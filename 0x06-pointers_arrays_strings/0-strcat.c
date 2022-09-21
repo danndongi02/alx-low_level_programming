@@ -8,7 +8,7 @@
  * @src: the source string to be appended to @dest
  * Return: A pointer ot the destination string @dest
  */
-char *strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
 	int index = 0, destLen = 0;
 
