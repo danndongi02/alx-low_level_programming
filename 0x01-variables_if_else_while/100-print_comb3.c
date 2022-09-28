@@ -1,6 +1,10 @@
-// Incomplete
 #include <stdio.h>
 
+/**
+ * main - print all two  digit combinations without repeating
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 	int x, y;
