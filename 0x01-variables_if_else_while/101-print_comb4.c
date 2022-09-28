@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - print 3 digit combinations
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 	int x, y, z;
@@ -18,11 +23,11 @@ int main(void)
 						putchar(y + '0');
 						putchar(z + '0');
 
-						if (!(x == 7 && y == 8 && z == 9))
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if (!(x == 7 && y == 8 && z == 9))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					}
 				}
 			}
