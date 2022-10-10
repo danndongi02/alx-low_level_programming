@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - FizzBuzz challenge
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 	int count;
@@ -7,16 +12,19 @@ int main(void)
 	for (count = 1; count < 101; count++)
 	{
 		if ((count % 3 == 0) && (count % 5 == 0))
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		else if (count % 3 == 0)
-			printf("Fizz ");
+			printf("Fizz");
 		else if (count % 5 == 0)
-			printf("Buzz ");
+			printf("Buzz");
 		else
-			printf("%d ", count);
+			printf("%d", count);
+
+		if (count != 100)
+			printf(" ");
 	}
 
-	printf("\n\n");
+	printf("\n");
 
 	return (0);
 }
