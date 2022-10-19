@@ -11,14 +11,17 @@ void puts_half(char *str)
 	int half;
 
 	/* get length */
-	while (str[length]  != '\0')
+	while (str[length] != '\0')
 		length++;
 
 	/* Calculate half length */
 	if (length % 2 != 0)
-		half = (length - 1) / 2;
+		half = (length + 1) / 2;
 	else
 		half = length / 2;
+
+	printf("%d\n", length);
+	printf("%d\n", half);
 
 	for (half = half; half < length; half++)
 		_putchar(str[half]);
