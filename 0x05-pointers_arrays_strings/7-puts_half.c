@@ -20,8 +20,8 @@ void puts_half(char *str)
 	else
 		half = length / 2;
 
-	printf("%d\n", length);
-	printf("%d\n", half);
+	// printf("%d\n", length);
+	// printf("%d\n", half);
 
 	for (half = half; half < length; half++)
 		_putchar(str[half]);
