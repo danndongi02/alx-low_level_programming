@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_diagsums - print the sum of diagonals of a matrix
+ *
+ * @a: matrix
+ * @size: size of the matrix
+ */
 void print_diagsums(int *a, int size)
 {
 	int diag1 = 0, diag2 = 0;
